@@ -121,3 +121,11 @@ li {
 	color: black;
 	border-color: blue;
 }
+
+.lev {
+	font-size: 16px;
+}
+
+.barva {
+	color: red;
+}

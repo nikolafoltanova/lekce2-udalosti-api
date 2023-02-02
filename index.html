@@ -10,6 +10,18 @@
 <body>
 
 	<h1>Změna tříd, události</h1>
+	<p class="lev" id = "lev" onmouseover="ztucni()" onmouseout= "odtucni()">V elipse spí lev</p>
+	<button class="tlacitko"  onclick="obarvi()" >Červené po kliknutí</button>
+
+	<button class="tlacitko" onclick="zvetsi('lev', 1)" >Větší po kliknutí</button>
+
+	<br><p>
+	<button class="tlacitko"  onclick="prehrej()"" >Přehrej</button>
+	<button class="tlacitko"  onclick="stopni()" >Stop</button>
+	<button class="tlacitko"  onclick="resetni()" >Reset</button>
+	<button class="tlacitko"  onclick="ticho()" >Bez zvuku</button>
+	<button class="tlacitko"  onclick="nahlas()" >Nahlas</button>
+	<button class="tlacitko"  onclick="nahlasVice()" >Nejvíc nahlas</button></p>
 
 	<div class="ctverecek zluty"></div>
 
@@ -19,7 +31,9 @@
 
 	<button class="tlacitko">Čudlajs</button>
 
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
+	<audio class="zvuk" src="audio/dingdingdang.mp3" preload="auto"></audio>
+
+	<script src="main.js"></script>
 
 </body>
 </html>
